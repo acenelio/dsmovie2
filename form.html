@@ -35,9 +35,31 @@
                 src="https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg"
                 alt="The Witcher"
               />
-              <div class="dsmovie-card-description">
+              <div class="dsmovie-form-description">
                 <h3>The Witcher</h3>
-                <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                <form class="dsmovie-form">
+                    <div class="form-group dsmovie-form-group">
+                        <label for="email">Informe seu email</label>
+                        <input class="form-control" type="email" id="email">
+                    </div>
+                    <div class="form-group dsmovie-form-group">
+                        <label for="score">Informe sua avaliação</label>
+                        <select class="form-control" name="score" id="score">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="dsmovie-form-btn-container">
+                        <button class="dsmovie-btn" type="submit">Salvar</button>
+                        <a class="dsmovie-btn" href="index.html">Cancelar</a>
+                    </div>
+                </form>
+
+
+                
               </div>
             </div>
           </div>
